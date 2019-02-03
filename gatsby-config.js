@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: "/blog",
   siteMetadata: {
-    title: `Austin 의 블로그`,
-    description: `필요한 Description 을 정의한다.`,
+    title: `Mangosteen Blog`,
+    description: `개발 Post 를 없데이트 합니다.`,
     author: `Austin`,
   },
   plugins: [
@@ -25,13 +25,21 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-prismjs`,
+        ]
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Mangosteen Blog`,
+        short_name: `Mangosteen`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#657b83`,
+        theme_color: `#657b83`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
