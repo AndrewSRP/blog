@@ -20,8 +20,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-helmet": "^5.2.0",
-    "semantic-ui": "^2.4.2"
+    "react-helmet": "^5.2.0"
   },
   "license": "MIT",
   "scripts": {
@@ -41,6 +40,7 @@
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
-    "prettier": "^1.16.3"
+    "prettier": "^1.16.3",
+    "semantic-ui-css": "^2.4.1"
   }
 }

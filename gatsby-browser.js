@@ -6,4 +6,4 @@
 
 // You can delete this file if you're not using it
 import "prismjs/themes/prism-solarizedlight.css";
-import "semantic-ui/dist/semantic.css";
+import "semantic-ui-css/semantic.min.css";
